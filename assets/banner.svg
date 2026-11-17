@@ -50,7 +50,7 @@
   <g filter="url(#shadow)">
     <rect x="640" y="52" width="300" height="64" rx="20" fill="#FFFFFF"/>
     <path d="M920 116 L940 132 L912 116 Z" fill="#FFFFFF"/>
-    <text x="920" y="92" text-anchor="end" font-size="21" fill="#2A1A33" direction="rtl">وش خدمات حاضنة الأعمال؟</text>
+    <text x="790" y="92" text-anchor="middle" font-size="21" fill="#2A1A33">وش خدمات حاضنة الأعمال؟</text>
 
     <rect x="590" y="140" width="340" height="96" rx="20" fill="#EBA052"/>
     <path d="M930 200 L962 214 L930 222 Z" fill="#EBA052"/>
