@@ -26,6 +26,16 @@
 - **Lead qualification** by budget and team size, with service recommendations.
 - **Admin dashboard** with role-based access.
 
+## Security 🔒
+- **Protected writes:** every database write goes through a secure Edge Function with input validation and rate limiting.
+- **No exposed keys:** API keys never reach the browser.
+- **Role-based access:** Row-Level Security checks each user's role, so logging in alone is not enough to open the admin dashboard.
+
+<p align="center">
+  <img src="assets/03-security-guard.png" alt="A logged-in user without an admin role is rejected" width="60%"/>
+  <br/><sub>A logged-in user without an admin role is rejected.</sub>
+</p>
+
 ## Team
 **Lamar Bader Altalhi** · Abeer Alghamdi (Team Lead) · Bushra Khaled AlGhashmari
 
