@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="d1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7CC92"/><stop offset="1" stop-color="#EDB06A"/></linearGradient>
+    <linearGradient id="d2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2B66B"/><stop offset="1" stop-color="#E39A45"/></linearGradient>
+    <linearGradient id="visor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E2547"/><stop offset="1" stop-color="#14101F"/></linearGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE2A8"/><stop offset="0.5" stop-color="#F7A440"/><stop offset="1" stop-color="#F7A440" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <!-- stars -->
+  <g fill="#EBA052">
+    <path d="M260 40 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+    <path d="M980 30 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z"/>
+    <path d="M1150 70 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" fill="#4A1F6B"/>
+    <path d="M120 85 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" fill="#4A1F6B"/>
+  </g>
+
+  <!-- dunes -->
+  <path d="M0 140 C200 100 360 115 540 140 C720 165 880 110 1060 115 C1160 118 1230 130 1280 128 V200 H0 Z" fill="url(#d1)"/>
+  <path d="M0 170 C240 145 420 155 620 175 C820 195 980 150 1160 158 C1220 160 1260 166 1280 165 V200 H0 Z" fill="url(#d2)"/>
+
+  <!-- text -->
+  <text x="640" y="62" text-anchor="middle" font-size="30" font-weight="700" fill="#4A1F6B">Thanks for visiting!</text>
+  <text x="640" y="98" text-anchor="middle" font-size="22" fill="#6B4A7F">شكرًا لزيارتك · رملة في خدمتك</text>
+
+  <!-- small Ramla robot sitting on the dune -->
+  <g transform="translate(860 30) scale(0.42)">
+    <line x1="110" y1="22" x2="110" y2="0" stroke="#4A1F6B" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="110" cy="-4" r="9" fill="#EBA052"/>
+    <rect x="30" y="20" width="160" height="128" rx="56" fill="#FFFFFF" stroke="#E6DCEB" stroke-width="3"/>
+    <rect x="18" y="66" width="18" height="40" rx="9" fill="#EBA052"/>
+    <rect x="184" y="66" width="18" height="40" rx="9" fill="#EBA052"/>
+    <rect x="48" y="44" width="124" height="82" rx="38" fill="url(#visor)"/>
+    <circle cx="86" cy="84" r="20" fill="url(#eye)"/>
+    <circle cx="134" cy="84" r="20" fill="url(#eye)"/>
+    <circle cx="86" cy="84" r="8" fill="#FFD27A"/>
+    <circle cx="134" cy="84" r="8" fill="#FFD27A"/>
+    <path d="M96 108 Q110 116 124 108" stroke="#F7A440" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <rect x="58" y="152" width="104" height="96" rx="34" fill="#FFFFFF" stroke="#E6DCEB" stroke-width="3"/>
+    <rect x="84" y="176" width="52" height="34" rx="10" fill="#4A1F6B"/>
+    <circle cx="100" cy="193" r="5" fill="#EBA052"/>
+    <circle cx="120" cy="193" r="5" fill="#7DD3A8"/>
+    <path d="M58 180 Q24 196 30 232" stroke="#FFFFFF" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M162 176 Q200 158 206 126" stroke="#FFFFFF" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="206" cy="120" r="13" fill="#EBA052"/>
+    <rect x="70" y="236" width="34" height="26" rx="13" fill="#4A1F6B"/>
+    <rect x="116" y="236" width="34" height="26" rx="13" fill="#4A1F6B"/>
+  </g>
+</svg>

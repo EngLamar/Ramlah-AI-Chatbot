@@ -42,3 +42,5 @@
 ---
 
 <sub>The live demo runs in fallback mode (knowledge base only) since the training's Groq subscription ended. Source code is private to Rimal X. Team showcase: <a href="https://github.com/Eng-Abeer18/Ramlah-AI-Chatbot">Eng-Abeer18/Ramlah-AI-Chatbot</a></sub>
+
+<p align="center"><img src="assets/footer.svg" alt="" width="100%"/></p>
