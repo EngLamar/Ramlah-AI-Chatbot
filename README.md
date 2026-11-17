@@ -1,7 +1,4 @@
 <p align="center"><img src="assets/banner.svg" alt="Ramlah AI banner" width="100%"/></p>
-
-<h1 align="center">Ramlah AI 🤖</h1>
-
 <p align="center">
   Bilingual AI chatbot that answers customer questions for <b>Rimal X</b> from an approved knowledge base.
 </p>
