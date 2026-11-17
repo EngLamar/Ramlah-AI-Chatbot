@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8F0"/>
+      <stop offset="1" stop-color="#FBE3C6"/>
+    </linearGradient>
+    <linearGradient id="dune1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B66B"/>
+      <stop offset="1" stop-color="#E39A45"/>
+    </linearGradient>
+    <linearGradient id="dune2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7CC92"/>
+      <stop offset="1" stop-color="#EDB06A"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE2A8"/>
+      <stop offset="0.5" stop-color="#F7A440"/>
+      <stop offset="1" stop-color="#F7A440" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="visor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E2547"/>
+      <stop offset="1" stop-color="#14101F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5B2C83" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" rx="24" fill="url(#sky)"/>
+
+  <!-- sand dunes (Rimal = sands) -->
+  <path d="M0 330 C180 280 330 300 470 330 C640 365 760 300 930 300 C1080 300 1180 330 1280 320 V420 H0 Z" fill="url(#dune2)"/>
+  <path d="M0 370 C220 340 380 350 560 375 C760 400 900 350 1080 355 C1170 358 1230 370 1280 365 V420 H0 Z" fill="url(#dune1)"/>
+
+  <!-- title -->
+  <text x="80" y="140" font-size="76" font-weight="800" fill="#4A1F6B">Ramlah AI</text>
+  <text x="84" y="190" font-size="26" fill="#6B4A7F">Bilingual RAG chatbot for Rimal X</text>
+  <g font-size="18" font-weight="600">
+    <rect x="84" y="220" width="104" height="36" rx="18" fill="#4A1F6B"/>
+    <text x="136" y="244" text-anchor="middle" fill="#FFFFFF">Next.js</text>
+    <rect x="198" y="220" width="116" height="36" rx="18" fill="#FFFFFF" stroke="#4A1F6B" stroke-width="2"/>
+    <text x="256" y="244" text-anchor="middle" fill="#4A1F6B">Supabase</text>
+    <rect x="324" y="220" width="104" height="36" rx="18" fill="#FFFFFF" stroke="#4A1F6B" stroke-width="2"/>
+    <text x="376" y="244" text-anchor="middle" fill="#4A1F6B">Groq LLM</text>
+    <rect x="438" y="220" width="72" height="36" rx="18" fill="#EBA052"/>
+    <text x="474" y="244" text-anchor="middle" fill="#FFFFFF">RAG</text>
+  </g>
+
+  <!-- chat bubbles -->
+  <g filter="url(#shadow)">
+    <rect x="640" y="52" width="300" height="64" rx="20" fill="#FFFFFF"/>
+    <path d="M920 116 L940 132 L912 116 Z" fill="#FFFFFF"/>
+    <text x="920" y="92" text-anchor="end" font-size="21" fill="#2A1A33" direction="rtl">وش خدمات حاضنة الأعمال؟</text>
+
+    <rect x="590" y="140" width="340" height="96" rx="20" fill="#EBA052"/>
+    <path d="M930 200 L962 214 L930 222 Z" fill="#EBA052"/>
+    <text x="612" y="178" font-size="20" font-weight="600" fill="#FFFFFF">Ramla · Online now</text>
+    <text x="612" y="210" font-size="19" fill="#FFFFFF">Here's what we offer… ✨</text>
+  </g>
+
+  <!-- Ramla robot -->
+  <g transform="translate(1000 70)">
+    <!-- antenna -->
+    <line x1="110" y1="22" x2="110" y2="0" stroke="#4A1F6B" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="110" cy="-4" r="9" fill="#EBA052"/>
+    <!-- head -->
+    <rect x="30" y="20" width="160" height="128" rx="56" fill="#FFFFFF" stroke="#E6DCEB" stroke-width="3"/>
+    <rect x="18" y="66" width="18" height="40" rx="9" fill="#EBA052"/>
+    <rect x="184" y="66" width="18" height="40" rx="9" fill="#EBA052"/>
+    <rect x="48" y="44" width="124" height="82" rx="38" fill="url(#visor)"/>
+    <circle cx="86" cy="84" r="20" fill="url(#eye)"/>
+    <circle cx="134" cy="84" r="20" fill="url(#eye)"/>
+    <circle cx="86" cy="84" r="8" fill="#FFD27A"/>
+    <circle cx="134" cy="84" r="8" fill="#FFD27A"/>
+    <path d="M96 108 Q110 116 124 108" stroke="#F7A440" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="58" y="152" width="104" height="96" rx="34" fill="#FFFFFF" stroke="#E6DCEB" stroke-width="3"/>
+    <rect x="84" y="176" width="52" height="34" rx="10" fill="#4A1F6B"/>
+    <circle cx="100" cy="193" r="5" fill="#EBA052"/>
+    <circle cx="120" cy="193" r="5" fill="#7DD3A8"/>
+    <!-- arms -->
+    <path d="M58 180 Q24 196 30 232" stroke="#FFFFFF" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M58 180 Q24 196 30 232" stroke="#E6DCEB" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M162 176 Q200 158 206 126" stroke="#FFFFFF" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="206" cy="120" r="13" fill="#EBA052"/>
+    <!-- legs sitting in sand -->
+    <rect x="70" y="236" width="34" height="26" rx="13" fill="#4A1F6B"/>
+    <rect x="116" y="236" width="34" height="26" rx="13" fill="#4A1F6B"/>
+  </g>
+</svg>

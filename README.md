@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="Ramlah AI banner" width="100%"/></p>
+
 <h1 align="center">Ramlah AI 🤖</h1>
 
 <p align="center">
